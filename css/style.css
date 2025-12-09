@@ -60,3 +60,20 @@ footer {
   padding: 12px;
   margin-top: 24px;
 }
+
+.news-card img {
+    width: 250px;       /* зменшення фото */
+    height: auto;       /* зберігає пропорції */
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+.news-card {
+    width: 300px;
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    text-align: center;
+}
