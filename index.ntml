@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Математичний факультет</title>
+  <link rel="shortcut icon" href="./image/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+  <header>
+    <img src="./image/logo.png" alt="Логотип" width="64" height="64">
+    <nav>
+      <a href="index.html">Головна</a> |
+      <a href="news.html">Новини</a> |
+      <a href="contacts.html">Контакти</a> |
+      <a href="education.html">Освіта</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Математичний факультет</h1>
+    <h2>Спеціальність: Інженерія програмного забезпечення</h2>
+    <h3>Група 6.F2/25-c</h3>
+    <p>Вітаємо! Тут ви знайдете інформацію про освіту, новини та можливості розвитку факультету.</p>
+
+    <figure>
+      <img class="faculty-photo" src="./image/faculty.png" alt="Факультет" width="300">
+      <figcaption>Символіка факультету</figcaption>
+    </figure>
+  </main>
+  <footer>
+    <p>© 2025 Математичний факультет</p>
+  </footer>
+
+</body>
+</html>
