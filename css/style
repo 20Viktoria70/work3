@@ -1,0 +1,62 @@
+/* css/main.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f6f7;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+/* header */
+header {
+  background: #2e7d32;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 20px;
+}
+
+header img { display:block; }
+
+nav { margin-left: auto; }
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 8px;
+  font-weight: 600;
+}
+
+nav a:hover { text-decoration: underline; }
+
+/* main */
+main {
+  max-width: 900px;
+  margin: 24px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.faculty-photo {
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: 16px auto;
+  border-radius: 8px;
+}
+
+/* footer */
+footer {
+  background: #2e7d32;
+  color: #fff;
+  text-align: center;
+  padding: 12px;
+  margin-top: 24px;
+}
